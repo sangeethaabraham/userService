@@ -1,0 +1,28 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "Sample RESTFUL CRUD with Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "restful",
+    "API",
+    "Monog"
+  ],
+  "author": "Sangeetha Abraham",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14",
+    "swagger-ui-express": "^4.0.1"
+  }
+}
